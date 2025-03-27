@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dqjox077n0e04"]
+
+[ext_resource type="Script" uid="uid://bytxi6ir8l2x1" path="res://Classes/item_data.gd" id="1_6xsuq"]
+[ext_resource type="Texture2D" uid="uid://ckcdae2ri2wqj" path="res://Tiles/Stick.png" id="2_np8i7"]
+
+[resource]
+script = ExtResource("1_6xsuq")
+name = "Stick"
+description = "A simple Stick"
+stackable = true
+texture = ExtResource("2_np8i7")
